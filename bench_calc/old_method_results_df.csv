@@ -1,0 +1,163 @@
+,BENCHMARK,MEAN_LIM2_FP_RATE,MEAN_LIM2_DETECTED_TROJ,MEAN_LIM4_FP_RATE,MEAN_LIM4_DETECTED_TROJ,MEAN_INF_FP_RATE,MEAN_INF_DETECTED_TROJ,MEDIAN_LIM2_FP_RATE,MEDIAN_LIM2_DETECTED_TROJ,MEDIAN_LIM4_FP_RATE,MEDIAN_LIM4_DETECTED_TROJ,MEDIAN_INF_FP_RATE,MEDIAN_INF_DETECTED_TROJ
+0,"RS232-T1100-uart
+(for <= 0.001)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.4761904761904762,yes
+1,"RS232-T1100-uart
+(for <= 0.025)",0.0,yes,0.4761904761904762,yes,0.4761904761904762,yes,0.0,yes,2.857142857142857,yes,12.380952380952381,yes
+2,"RS232-T1100-uart
+(for <= 0.06)",0.4761904761904762,yes,1.9047619047619049,yes,2.380952380952381,yes,1.9047619047619049,yes,13.333333333333334,yes,23.333333333333332,yes
+3,"RS232-T1200-uart
+(for <= 0.001)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes
+4,"RS232-T1200-uart
+(for <= 0.025)",0.0,yes,0.47393364928909953,yes,0.47393364928909953,yes,0.0,yes,2.3696682464454977,yes,11.848341232227488,yes
+5,"RS232-T1200-uart
+(for <= 0.06)",0.47393364928909953,yes,1.8957345971563981,yes,1.8957345971563981,yes,1.8957345971563981,yes,12.796208530805686,yes,22.748815165876778,yes
+6,"RS232-T1300-uart
+(for <= 0.001)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes
+7,"RS232-T1300-uart
+(for <= 0.025)",0.0,yes,0.4830917874396135,yes,0.4830917874396135,yes,0.0,yes,2.4154589371980677,yes,12.077294685990339,yes
+8,"RS232-T1300-uart
+(for <= 0.06)",0.4830917874396135,yes,1.932367149758454,yes,1.932367149758454,yes,1.932367149758454,yes,13.043478260869565,yes,23.18840579710145,yes
+9,"RS232-T1400-uart
+(for <= 0.001)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes
+10,"RS232-T1400-uart
+(for <= 0.025)",0.0,yes,0.4761904761904762,yes,0.4761904761904762,yes,0.0,yes,2.380952380952381,yes,11.904761904761903,yes
+11,"RS232-T1400-uart
+(for <= 0.06)",0.4761904761904762,yes,1.9047619047619049,yes,1.9047619047619049,yes,1.9047619047619049,yes,12.857142857142856,yes,22.857142857142858,yes
+12,"RS232-T1500-uart
+(for <= 0.001)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.47393364928909953,yes
+13,"RS232-T1500-uart
+(for <= 0.025)",0.0,yes,0.47393364928909953,yes,0.47393364928909953,yes,0.0,yes,2.843601895734597,yes,12.322274881516588,yes
+14,"RS232-T1500-uart
+(for <= 0.06)",0.47393364928909953,yes,1.8957345971563981,yes,2.3696682464454977,yes,1.8957345971563981,yes,13.270142180094787,yes,23.22274881516588,yes
+15,"RS232-T1600-uart
+(for <= 0.001)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes
+16,"RS232-T1600-uart
+(for <= 0.025)",0.0,yes,0.4830917874396135,yes,0.4830917874396135,yes,0.0,yes,2.4154589371980677,yes,12.077294685990339,yes
+17,"RS232-T1600-uart
+(for <= 0.06)",0.4830917874396135,yes,1.932367149758454,yes,1.932367149758454,yes,1.932367149758454,yes,13.043478260869565,yes,23.18840579710145,yes
+18,"b01
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+19,"b01
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+20,"b01
+(for <= 0.06)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+21,"b02
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+22,"b02
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+23,"b02
+(for <= 0.06)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+24,"b03
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+25,"b03
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+26,"b03
+(for <= 0.06)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,10.204081632653061,no trojan,20.408163265306122,no trojan
+27,"b04
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,1.0416666666666665,no trojan,0.0,no trojan,0.0,no trojan,8.333333333333332,no trojan
+28,"b04
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,3.125,no trojan,0.0,no trojan,0.0,no trojan,29.6875,no trojan
+29,"b04
+(for <= 0.06)",0.0,no trojan,3.6458333333333335,no trojan,13.541666666666666,no trojan,0.0,no trojan,12.5,no trojan,38.54166666666667,no trojan
+30,"b05
+(for <= 0.001)",0.0,no trojan,0.28653295128939826,no trojan,2.292263610315186,no trojan,0.0,no trojan,0.28653295128939826,no trojan,4.584527220630372,no trojan
+31,"b05
+(for <= 0.025)",0.28653295128939826,no trojan,1.146131805157593,no trojan,4.297994269340974,no trojan,0.28653295128939826,no trojan,8.595988538681947,no trojan,16.9054441260745,no trojan
+32,"b05
+(for <= 0.06)",0.8595988538681949,no trojan,4.871060171919771,no trojan,13.753581661891118,no trojan,0.8595988538681949,no trojan,23.20916905444126,no trojan,27.793696275071632,no trojan
+33,"b06
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+34,"b06
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+35,"b06
+(for <= 0.06)",0.0,no trojan,0.0,no trojan,0.0,no trojan,10.344827586206897,no trojan,0.0,no trojan,0.0,no trojan
+36,"b07
+(for <= 0.001)",0.0,no trojan,0.6802721088435374,no trojan,5.442176870748299,no trojan,0.0,no trojan,0.6802721088435374,no trojan,28.57142857142857,no trojan
+37,"b07
+(for <= 0.025)",0.6802721088435374,no trojan,6.122448979591836,no trojan,11.564625850340136,no trojan,0.6802721088435374,no trojan,20.408163265306122,no trojan,52.38095238095239,no trojan
+38,"b07
+(for <= 0.06)",1.3605442176870748,no trojan,11.564625850340136,no trojan,42.17687074829932,no trojan,2.0408163265306123,no trojan,47.61904761904761,no trojan,63.26530612244898,no trojan
+39,"b08
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,1.5873015873015872,no trojan
+40,"b08
+(for <= 0.025)",0.0,no trojan,6.349206349206349,no trojan,1.5873015873015872,no trojan,0.0,no trojan,12.698412698412698,no trojan,19.047619047619047,no trojan
+41,"b08
+(for <= 0.06)",3.1746031746031744,no trojan,6.349206349206349,no trojan,7.936507936507936,no trojan,3.1746031746031744,no trojan,22.22222222222222,no trojan,25.396825396825395,no trojan
+42,"b09
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,3.508771929824561,no trojan,24.561403508771928,no trojan
+43,"b09
+(for <= 0.025)",1.7543859649122806,no trojan,1.7543859649122806,no trojan,1.7543859649122806,no trojan,1.7543859649122806,no trojan,12.280701754385964,no trojan,35.08771929824561,no trojan
+44,"b09
+(for <= 0.06)",1.7543859649122806,no trojan,5.263157894736842,no trojan,12.280701754385964,no trojan,5.263157894736842,no trojan,14.035087719298245,no trojan,35.08771929824561,no trojan
+45,"b10
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+46,"b10
+(for <= 0.025)",1.0638297872340425,no trojan,1.0638297872340425,no trojan,1.0638297872340425,no trojan,1.0638297872340425,no trojan,6.382978723404255,no trojan,9.574468085106384,no trojan
+47,"b10
+(for <= 0.06)",2.127659574468085,no trojan,3.1914893617021276,no trojan,3.1914893617021276,no trojan,6.382978723404255,no trojan,19.148936170212767,no trojan,22.340425531914892,no trojan
+48,"b12
+(for <= 0.001)",0.43010752688172044,no trojan,0.8602150537634409,no trojan,3.4408602150537635,no trojan,0.43010752688172044,no trojan,1.7204301075268817,no trojan,17.8494623655914,no trojan
+49,"b12
+(for <= 0.025)",1.2903225806451613,no trojan,4.731182795698925,no trojan,12.258064516129032,no trojan,2.5806451612903225,no trojan,33.97849462365591,no trojan,45.376344086021504,no trojan
+50,"b12
+(for <= 0.06)",2.1505376344086025,no trojan,26.451612903225808,no trojan,44.516129032258064,no trojan,6.666666666666667,no trojan,56.55913978494623,no trojan,63.2258064516129,no trojan
+51,"b13
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,1.5384615384615385,no trojan,2.307692307692308,no trojan
+52,"b13
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,3.076923076923077,no trojan,0.0,no trojan,5.384615384615385,no trojan,16.153846153846153,no trojan
+53,"b13
+(for <= 0.06)",0.0,no trojan,1.5384615384615385,no trojan,8.461538461538462,no trojan,0.0,no trojan,15.384615384615385,no trojan,26.923076923076923,no trojan
+54,"b30
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,1.574803149606299,no trojan,2.3622047244094486,no trojan
+55,"b30
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,3.149606299212598,no trojan,0.0,no trojan,6.299212598425196,no trojan,14.173228346456693,no trojan
+56,"b30
+(for <= 0.06)",0.0,no trojan,2.3622047244094486,no trojan,7.874015748031496,no trojan,0.7874015748031495,no trojan,18.11023622047244,no trojan,23.62204724409449,no trojan
+57,"c5315
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+58,"c5315
+(for <= 0.025)",1.0204081632653061,no trojan,1.4285714285714286,no trojan,1.4285714285714286,no trojan,1.0204081632653061,no trojan,4.6938775510204085,no trojan,11.020408163265307,no trojan
+59,"c5315
+(for <= 0.06)",1.2244897959183674,no trojan,4.6938775510204085,no trojan,8.775510204081632,no trojan,7.551020408163265,no trojan,13.877551020408163,no trojan,17.959183673469386,no trojan
+60,"c880
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+61,"c880
+(for <= 0.025)",1.282051282051282,no trojan,4.487179487179487,no trojan,4.487179487179487,no trojan,1.282051282051282,no trojan,12.82051282051282,no trojan,50.0,no trojan
+62,"c880
+(for <= 0.06)",1.9230769230769231,no trojan,8.974358974358974,no trojan,18.58974358974359,no trojan,2.564102564102564,no trojan,37.82051282051282,no trojan,68.58974358974359,no trojan
+63,"s35932-T100_scan_free
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+64,"s35932-T100_scan_free
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+65,"s35932-T100_scan_free
+(for <= 0.06)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+66,"s35932-T100_scan_in
+(for <= 0.001)",0.0,no,0.0,no,0.0,no,0.0,no,0.0,no,0.0,no
+67,"s35932-T100_scan_in
+(for <= 0.025)",0.0,yes,0.0,no,0.0,no,0.0,yes,0.0,no,0.0,no
+68,"s35932-T100_scan_in
+(for <= 0.06)",0.0,yes,0.0,no,0.0,yes,0.0,yes,0.0,yes,0.0,yes
+69,"s35932-T200_scan_free
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+70,"s35932-T200_scan_free
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+71,"s35932-T200_scan_free
+(for <= 0.06)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+72,"s35932-T200_scan_in
+(for <= 0.001)",0.0,no,0.0,no,0.0,no,0.0,no,0.0,yes,0.06664445184938354,no
+73,"s35932-T200_scan_in
+(for <= 0.025)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.06664445184938354,yes
+74,"s35932-T200_scan_in
+(for <= 0.06)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.06664445184938354,yes
+75,"s35932-T300_scan_free
+(for <= 0.001)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+76,"s35932-T300_scan_free
+(for <= 0.025)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+77,"s35932-T300_scan_free
+(for <= 0.06)",0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan,0.0,no trojan
+78,"s35932-T300_scan_in
+(for <= 0.001)",0.0,no,0.0,yes,0.0,no,0.0,no,0.0,yes,0.0,yes
+79,"s35932-T300_scan_in
+(for <= 0.025)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes
+80,"s35932-T300_scan_in
+(for <= 0.06)",0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes,0.0,yes
