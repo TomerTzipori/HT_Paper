@@ -1,9 +1,9 @@
 Installation Guide:
 
 1. Terminal:
- - from the HTproject directory, press right click, then select 'open in terminal'
- - a terminal should open. to make sure we are in the /HTproject directory, type the 'cwd' command in the terminal
-   and make sure that the output ends with '/HTproject'
+ - from the directory of the cloned git repository on your system, press right click, then select 'open in terminal'
+ - a terminal should open. to make sure we are in the /<git project name> directory, type the 'cwd' command in the terminal
+   and make sure that the output ends with '/<git project name>'
  * for the rest of the tutorial we will run commands from this specific terminal session
 
 2. GIT:
@@ -19,7 +19,7 @@ Installation Guide:
    
 Run Guide:
 
- - In order to run the project, from the HTproject directory, press right click, then select 'open in terminal'
+ - In order to run the project, from the <git project name> directory, press right click, then select 'open in terminal'
  - then type the command 'python3 HT_detection'. the terminal will display which command line parameters the program require.
  - after inserting suitable params, the script will use HAL to analyze a set netlist via our FANCI implementation.
 
