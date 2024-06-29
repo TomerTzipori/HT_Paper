@@ -24,8 +24,7 @@ Run Guide:
  - after inserting suitable params, the script will use HAL to analyze a set netlist via our FANCI implementation.
 
  - the program will output its results inside the output folder, in a specific folder named after the gate`s name.
- - in order to display results, use calc_bench python file  
-
+ - in order to display results, use calculate_benchmark.py
  
  
  
