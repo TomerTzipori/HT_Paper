@@ -1,30 +1,25 @@
-Installation Guide:
-
-1. Terminal:
- - from the directory of the cloned git repository on your system, press right click, then select 'open in terminal'
- - a terminal should open. to make sure we are in the /<git project name> directory, type the 'cwd' command in the terminal
-   and make sure that the output ends with '/<git project name>'
- * for the rest of the tutorial we will run commands from this specific terminal session
-
-2. GIT:
- - use 'git --version' via the terminal to check if git is installed on your system 
- - if the command fails, install git using 'sudo apt install git'
- 
-3. Building HAL:
- - if the hal library on the project`s document is faulty or non existant, use 'bash hal_builder.sh' via the terminal
- - 'hal_builder.sh' includes the build instructions in https://github.com/emsec/hal/wiki/Building-HAL#build-instructions  
- * there is a missing '/' in the original 'cmake .. [OPTIONS]' instruction, atleast in plain sight due to a bug. 
- - this step also builds the hal_py library we commonly use in our project,
-   so make sure to wait for the build to finish (take lots of time) before running any code using said library
-   
-Run Guide:
-
- - In order to run the project, from the <git project name> directory, press right click, then select 'open in terminal'
- - then type the command 'python3 HT_detection'. the terminal will display which command line parameters the program require.
- - after inserting suitable params, the script will use HAL to analyze a set netlist via our FANCI implementation.
-
- - the program will output its results inside the output folder, in a specific folder named after the gate`s name.
- - in order to display results, use calculate_benchmark.py
+Installation Guide
+1. Open Terminal
+Navigate to the directory of the cloned Git repository on your system.
+Right-click within the directory and select 'Open in Terminal'.
+Ensure you are in the correct directory by typing pwd in the terminal and verifying the output ends with /<git-project-name>.
+2. Verify Git Installation
+Check if Git is installed by running git --version in the terminal.
+If Git is not installed, install it using sudo apt install git.
+3. Build HAL Library
+If the HAL library in the project's directory is missing or faulty, build it by running bash hal_builder.sh in the terminal.
+The hal_builder.sh script includes the build instructions from HAL's official build instructions.
+Note: There is a known issue with a missing '/' in the 'cmake .. [OPTIONS]' instruction. Ensure the correct path is used.
+This step also builds the hal_py library used in our project. Please wait for the build to complete before running any code that depends on this library.
+Run Guide
+Running the Project
+Navigate to the <git-project-name> directory.
+Open a terminal in this directory.
+Run the command python3 HT_detection. The terminal will display the required command-line parameters.
+Provide the appropriate parameters. The script will use HAL to analyze a set netlist via our FANCI implementation.
+Output
+The results will be saved in the output folder, in subfolders named after the respective gates.
+To display the results, run calculate_benchmark.py.
  
  
  
