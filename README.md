@@ -20,7 +20,11 @@ Installation Guide:
 Run Guide:
 
  - In order to run the project, from the HTproject directory, press right click, then select 'open in terminal'
- - then type the command 'python3 HT_detection'. the script uses HAL to analyze a set netlist using FANCI
+ - then type the command 'python3 HT_detection'. the terminal will display which command line parameters the program require.
+ - after inserting suitable params, the script will use HAL to analyze a set netlist via our FANCI implementation.
+
+ - the program will output its results inside the output folder, in a specific folder named after the gate`s name.
+ - in order to display results, use calc_bench python file  
 
  
  
