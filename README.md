@@ -1,6 +1,6 @@
 # Hardware Trojan Detection Project
 
-This repository contains the code and resources for our hardware trojan detection project. Please follow the instructions below to set up and run the project.
+This repository contains the code and resources for our hardware trojan detection paper. Please follow the instructions below to set up and run the project.
 
 ## Installation Guide
 
